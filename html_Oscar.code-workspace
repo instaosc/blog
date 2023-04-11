@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../code/html_Oscar"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Blog"
+	}
+}

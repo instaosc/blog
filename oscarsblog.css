@@ -1,0 +1,121 @@
+#capeTown{
+width: 250px;
+height: auto;
+padding: 0px 0px 0px 0px;
+
+box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+
+#superyacht {
+width: 250px;
+height: auto;
+padding: 0px 0px 0px 0;
+
+box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+#plane{
+    width: 250px;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+#tonleSap{
+    width: 250px;
+    height: auto;
+    padding: 0px 0px 0px 0px;
+
+    box-shadow: 0 10px 20px rgb(40, 40, 40);
+}
+
+#oscarRowley{
+font-family: monospace;
+color: rgb(4, 43, 48);
+padding-top: 30px;
+text-align: center;
+align-items: center;
+}
+
+
+
+#background{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient(45deg,rgb(45, 73, 82),rgb(27, 17, 82),rgb(18, 140, 145));
+
+}
+
+#blogsTitle{
+    text-align: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: large;
+}
+
+#recentBlogs{
+padding: 40px 20px 40px 20px;
+font-family: monospace;
+text-align: center;
+align-items: center;
+
+}
+
+#clickMe{
+    font-family: monospace;
+    text-align: center;
+}
+
+#heading4{
+text-align: center;
+}
+
+#menuBar{
+    display: flex;
+    flex-direction: row;
+    flex-direction: row;
+    background-color: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#firstInput{
+text-align: center;
+background-color: rgb(150, 222, 231);
+color: white;
+border: 1px solid;
+font-family: monospace;
+}
+
+#firstDiv{
+justify-content: flex;
+justify-content: center;
+text-align: center;
+font-family: monospace;
+width: fit-content;
+align-items: center;
+text-align: center;
+margin: 25px;
+
+}
+
+#container{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+row-gap: 10px;
+column-gap: 10px;
+text-align: center;
+align-items: center;
+
+
+}
+
+.box{
+margin: 5px;
+outline: 1px;
+color: cyan;
+}
