@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscars Additional Blogs and Artwork</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, lightgreen, lightblue);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        #recentBlogs {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        #recentBlogs img {
+            width: 250px;
+            margin: 10px;
+            border: 2px solid transparent;
+            transition: border-color 0.3s ease-in-out;
+            cursor: pointer; 
+        }
+
+        #recentBlogs .img-title {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        #recentBlogs img:hover {
+            border-color: cyan;
+        }
+    </style>
+    <script>
+        // JavaScript code to handle image hover effect
+        window.addEventListener('DOMContentLoaded', () => {
+            const images = document.querySelectorAll('#recentBlogs img');
+
+            images.forEach((img) => {
+                img.addEventListener('mouseover', () => {
+                    img.style.borderColor = 'cyan';
+                });
+
+                img.addEventListener('mouseout', () => {
+                    img.style.borderColor = 'transparent';
+                });
+
+                // Adding a click event listener to each image
+                img.addEventListener('click', () => {
+                    const imageName = img.id;
+                    const pageName = imageName + '.html';
+                    window.location.href = pageName; // Navigate to the corresponding HTML page
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <header>
+        
+    </header>
+
+    <main>
+        <h1>CLickable Blog Artwork by Instaosc</h1>
+
+        <div id="recentBlogs">
+            <div>
+                <h3 class="img-title" id="Safari-title">Safari</h3>
+                <img id="Safari" src="Safari.JPEG" alt="Safari">
+            </div>
+            <div>
+                <h3 class="img-title" id="Snake-title">Snake</h3>
+                <img id="Snake" src="Snake.JPEG" alt="Snake">
+            </div>
+            <div>
+                <h3 class="img-title" id="TableMountain-title">Table Mountain</h3>
+                <img id="TableMountain" src="TableMountain.JPEG" alt="Table Mountain">
+            </div>
+            <div>
+                <h3 class="img-title" id="TakingTheFirstStep-title">Taking the First Step</h3>
+                <img id="TakingTheFirstStep" src="TakingTheFirstStep.JPEG" alt="Taking the First Step">
+            </div>
+            <div>
+                <h3 class="img-title" id="Why-title">Why</h3>
+                <img id="Why" src="Why.JPEG" alt="Why">
+            </div>
+            <div>
+                <h3 class="img-title" id="CapeTownView-title">Cape Town View</h3>
+                <img id="CapeTownView" src="CapeTownView.JPEG" alt="Cape Town View">
+            </div>
+            <div>

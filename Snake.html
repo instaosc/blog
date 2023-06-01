@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #d6c6ff, #91a7ff);
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+        }
+
+        .image {
+            flex: 0 0 auto;
+            margin-right: 20px;
+            width: 38%; /* Set the width to 38% */
+        }
+
+        .text-box {
+            flex: 1 1 auto;
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .comment-section {
+            margin-top: 20px;
+            padding-top: 10px;
+            border-top: 1px solid #ccc;
+        }
+
+        .comment {
+            margin-bottom: 10px;
+        }
+
+        .comment-author {
+            font-weight: bold;
+        }
+
+        .comment-text {
+            margin-top: 5px;
+        }
+
+        .comment-form {
+            margin-top: 20px;
+        }
+
+        .comment-form input[type="text"],
+        .comment-form textarea {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+            resize: vertical;
+        }
+
+        .comment-form button {
+            padding: 5px 10px;
+        }
+    </style>
+    <script>
+        function addComment() {
+            var nameInput = document.getElementById("name");
+            var commentInput = document.getElementById("comment");
+
+            var name = nameInput.value;
+            var comment = commentInput.value;
+
+            if (name && comment) {
+                var commentSection = document.getElementById("comments");
+
+                var commentDiv = document.createElement("div");
+                commentDiv.classList.add("comment");
+
+                var authorDiv = document.createElement("div");
+                authorDiv.classList.add("comment-author");
+                authorDiv.textContent = name;
+
+                var textDiv = document.createElement("div");
+                textDiv.classList.add("comment-text");
+                textDiv.textContent = comment;
+
+                commentDiv.appendChild(authorDiv);
+                commentDiv.appendChild(textDiv);
+
+                commentSection.appendChild(commentDiv);
+
+                nameInput.value = "";
+                commentInput.value = "";
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <img class="image" src="Snake.JPEG" alt="Your Image">
+        <div class="text-box">
+            <h2>How much we take for granted</h2>
+            <p>My journey to Tonle Sap Lake in Cambodia brought me to the fascinating Chong Kneas Floating Village. As I approached the village, 
+                I was immediately struck by the unique sight of houses perched on tall stilts, rising above the crocodile and snake-infested 
+                waters of the lake. It was a stark reminder of the challenging conditions that the locals endure on a daily basis.</p>
+            <p>
+                While exploring the village, I encountered two young children, no more than five years old, with enormous snakes coiled around their necks. 
+                With an air of resilience beyond their years, they approached me, asking for a mere dollar in exchange for a photograph. It was a humbling moment that 
+                left a profound impact on me.

@@ -44,7 +44,7 @@ align-items: center;
 #background{
 height: 100vh;
 width: 100%;
-background-image: linear-gradient(45deg,rgb(45, 73, 82),rgb(27, 17, 82),rgb(18, 140, 145));
+background-image: linear-gradient(45deg,rgb(45, 73, 82),rgb(19, 107, 31),rgb(18, 140, 145));
 
 }
 
@@ -70,6 +70,7 @@ align-items: center;
 
 #heading4{
 text-align: center;
+text-size-adjust: 100px;
 }
 
 #menuBar{
@@ -119,3 +120,77 @@ margin: 5px;
 outline: 1px;
 color: cyan;
 }
+
+#MoreBlogsTitle{
+    font-family: monospace;
+    color: rgb(4, 43, 48);
+    padding-top: 30px;
+    text-align: center;
+    align-items: center;
+    }
+
+    #Safari{
+        width: 250px;
+        height: auto;
+        padding: 0px 0px 0px 0px;
+        
+        box-shadow: 0 10px 20px rgb(40, 40, 40);
+        }
+        
+        
+        #Snake {
+        width: 250px;
+        height: auto;
+        padding: 0px 0px 0px 0;
+        
+        box-shadow: 0 10px 20px rgb(40, 40, 40);
+        }
+        
+        #TableMountain{
+            width: 250px;
+            height: auto;
+            padding: 0px 0px 0px 0px;
+        
+            box-shadow: 0 10px 20px rgb(40, 40, 40);
+        }
+        
+        #TakingTheFirstStep{
+            width: 250px;
+            height: auto;
+            padding: 0px 0px 0px 0px;
+        
+            box-shadow: 0 10px 20px rgb(40, 40, 40);
+        }
+
+        #Why{
+            width: 250px;
+            height: auto;
+            padding: 0px 0px 0px 0px;
+            
+            box-shadow: 0 10px 20px rgb(40, 40, 40);
+            }
+            
+            
+            #Simplicity {
+            width: 250px;
+            height: auto;
+            padding: 0px 0px 0px 0;
+            
+            box-shadow: 0 10px 20px rgb(40, 40, 40);
+            }
+            
+            #Positive{
+                width: 250px;
+                height: auto;
+                padding: 0px 0px 0px 0px;
+            
+                box-shadow: 0 10px 20px rgb(40, 40, 40);
+            }
+            
+            #CapeTown{
+                width: 250px;
+                height: auto;
+                padding: 0px 0px 0px 0px;
+            
+                box-shadow: 0 10px 20px rgb(40, 40, 40);
+            }
